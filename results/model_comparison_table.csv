@@ -1,0 +1,5 @@
+Experiment,Hidden Layers,Activation,Neurons,Learning Rate,Batch Size,Epochs,Train Accuracy,Train Loss,Test Accuracy,Test Loss,F1 Score
+Baseline Model,2,relu,"[64, 32]",0.001,32,50,99.94,0.0027,98.25,0.1421,0.0
+Ex 1 -- More Neurons & Layers,3,relu,"[128, 64, 32]",0.001,32,50,100.0,0.0,97.75,0.2708,0.0
+Ex 2 -- Higher Learning Rate,2,relu,"[64, 32]",0.01,32,50,100.0,0.0,97.25,0.3458,0.1538
+Ex 3 -- tanh Activation Function,2,tanh,"[64, 32]",0.001,32,50,99.25,0.022,98.75,0.0643,0.2857
